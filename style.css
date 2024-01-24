@@ -1,13 +1,48 @@
 @charset "UTF-8";
 
-html {
-
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff; /* 白色の背景 */
+    color: #333; /* テキストの色 */
 }
 
 header {
-
+    background-color: #00bcd4; /* 水色のヘッダー */
+    color: #fff; /* ヘッダーテキストの色 */
+    padding: 20px;
+    text-align: center;
 }
 
-body {
-    
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.spot {
+    box-sizing: border-box;
+    width: 300px;
+    margin: 20px;
+    padding: 15px;
+    border: 1px solid #ddd; 
+    border-radius: 8px;
+}
+
+.spot img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+footer {
+    background-color: #c4c4c4;
+    color: #a4a4a4; 
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
