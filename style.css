@@ -8,18 +8,46 @@ body {
     color: #333; /* テキストの色 */
 }
 
+body h1 {
+    text-align:center;
+}
+
+.top {
+    background-color: #00bcd4; 
+    color: #fff; 
+    padding: 50px;
+    text-align: center;
+
+}
+
+
+
 header {
-    background-color: #00bcd4; /* 水色のヘッダー */
-    color: #fff; /* ヘッダーテキストの色 */
     padding: 20px;
     text-align: center;
 }
+
+header a {
+    line-height: 20px;
+    padding-right: 40px;
+    color: #333;
+    padding: 10px;
+    border-bottom: 1px solid #333;
+    text-decoration:none
+}
+
+header a:hover {
+    background-color:#d1d1d1;
+}
+
 
 main {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    padding: 20px;
+    padding: 40px;
+    padding: 10px;
+    border-bottom: 2px solid #333;
 }
 
 .spot {
@@ -37,9 +65,14 @@ main {
     border-radius: 4px;
 }
 
+
+
+
+
+
 footer {
-    background-color: #c4c4c4;
-    color: #a4a4a4; 
+    background-color: #d1d1d1;
+    color: #747474;
     text-align: center;
     padding: 10px;
     position: fixed;
